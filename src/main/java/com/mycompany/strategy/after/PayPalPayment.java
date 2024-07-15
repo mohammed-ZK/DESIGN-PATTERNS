@@ -4,7 +4,6 @@
  */
 package com.mycompany.strategy.after;
 
-// Concrete Strategy 1: Bubble Sort
 public class PayPalPayment implements PaymentStrategy {
     @Override
     public void pay(double amount) {

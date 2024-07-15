@@ -4,7 +4,6 @@
  */
 package com.mycompany.strategy.after;
 
-// Concrete Strategy 2: Quick Sort
 public class CreditCardPayment implements PaymentStrategy {
     @Override
     public void pay(double amount) {

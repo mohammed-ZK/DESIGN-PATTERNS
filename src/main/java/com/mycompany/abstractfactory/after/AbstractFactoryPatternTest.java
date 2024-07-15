@@ -7,7 +7,7 @@ package com.mycompany.abstractfactory.after;
 public class AbstractFactoryPatternTest {
     public static void main(String[] args) {
         FurnitureFactory factory;
-        String style = "Modern"; // يمكنك تغيير النمط إلى "Victorian" أو "ArtDeco"
+        String style = "Modern"; 
 
         if (style.equals("Modern")) {
             factory = new ModernFurnitureFactory();
